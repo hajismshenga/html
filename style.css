@@ -1,0 +1,53 @@
+body {
+    background-color: yellow;
+    color:red;
+    text-align: center;
+}
+h1{
+    font-size: 10px;
+}
+p {
+    font-style: italic;
+}
+
+#header {
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+ul li {
+    color:blue;
+}
+
+a {
+    text-decoration: none;
+    font-size: 10px;
+}
+a[href="https://www.amazon.com"]
+{
+    color: red;
+}
+
+a:hover
+{
+    font-size: 30px;
+}
+a:visited{
+    color:black;
+}
+
+
+button {
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+button:hover
+{
+    background-color: green;
+}
